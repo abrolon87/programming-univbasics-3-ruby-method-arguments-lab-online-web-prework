@@ -6,10 +6,8 @@ def introduction(name)
   puts "Hi, my name is #{name}.\n"
 end
 
-
-
-def introduction_with_language
-
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name}.\n I know #{language}.\n"
 end
 
 def introduction_with_language_optional
